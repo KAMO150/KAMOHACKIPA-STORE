@@ -213,3 +213,63 @@ header{
 .card button:hover{
     background:#5a9cff;
 }
+.featured{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    margin-bottom:50px;
+}
+
+.feature-card{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    padding:25px;
+}
+
+.feature-card img{
+    width:170px;
+    border-radius:22px;
+}
+
+.feature-card .info span{
+    color:#4db8ff;
+    font-size:14px;
+}
+
+.feature-card .info h2{
+    margin:10px 0;
+    font-size:34px;
+}
+
+.feature-card .info p{
+    color:#bfbfbf;
+    margin-bottom:20px;
+}
+
+.feature-card button{
+    padding:14px 30px;
+    border:none;
+    border-radius:14px;
+    background:#2f80ff;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.feature-card button:hover{
+    transform:scale(1.05);
+}
+
+@media(max-width:900px){
+
+.feature-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.feature-card img{
+    width:140px;
+}
+
+}
