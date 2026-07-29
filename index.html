@@ -1,107 +1,141 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAMOHACK STORE</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<title>KAMOHACK STORE</title>
 
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-<div class="background">
-    <div class="circle c1"></div>
-    <div class="circle c2"></div>
-    <div class="circle c3"></div>
+<div class="background-blur"></div>
+
+<!-- Sidebar -->
+
+<aside class="sidebar">
+
+<div class="logo">
+
+<img src="assets/logo.png" alt="logo">
+
+<h2>KAMOHACK</h2>
+
 </div>
 
-<header class="header">
+<nav>
 
-    <div class="logo">
-        <img <
-        <div><img src="logo.png.PNG" alt="KAMOHACK STORE">
-            <h1>KAMOHACK STORE</h1>
-            <p>Premium IPA Store</p>
-        </div>
-    </div>
+<a class="active"><i class="fa-solid fa-house"></i> Home</a>
 
-    <nav>
-        <a href="#">الرئيسية</a>
-        <a href="#">التطبيقات</a>
-        <a href="#">الألعاب</a>
-        <a href="#">تواصل</a>
-    </nav>
+<a><i class="fa-solid fa-fire"></i> Trending</a>
+
+<a><i class="fa-solid fa-mobile-screen"></i> Apps</a>
+
+<a><i class="fa-solid fa-gamepad"></i> Games</a>
+
+<a><i class="fa-solid fa-star"></i> Premium</a>
+
+<a><i class="fa-solid fa-download"></i> Downloads</a>
+
+<a><i class="fa-solid fa-gear"></i> Settings</a>
+
+</nav>
+
+</aside>
+
+<!-- Main -->
+
+<main>
+
+<header>
+
+<div class="search">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<input type="text" placeholder="Search Apps...">
+
+</div>
+
+<div class="profile">
+
+<img src="assets/avatar.png">
+
+</div>
 
 </header>
 
-<section class="hero">
+<section class="hero glass">
 
-    <h2>أفضل متجر IPA للأيفون</h2>
+<div>
 
-    <p>
-        حمل أحدث التطبيقات والألعاب المعدلة
-        بتصميم احترافي وسرعة عالية.
-    </p>
+<h1>Welcome to KAMOHACK STORE</h1>
 
-    <div class="search">
+<p>The Premium IPA Library</p>
 
-        <input
-        type="text"
-        placeholder="ابحث عن تطبيق...">
+<button>Browse Apps</button>
 
-        <button>
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-
-    </div>
+</div>
 
 </section>
 
-<section class="apps">
+<h2 class="title">Featured Apps</h2>
 
-    <div class="card">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png">
-        <h3>Spotify Premium</h3>
-        <p>آخر إصدار</p>
-        <button>Download</button>
-    </div>
+<div class="apps">
 
-    <div class="card">
-        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
-        <h3>YouTube Premium</h3>
-        <p>آخر إصدار</p>
-        <button>Download</button>
-    </div>
+<div class="card glass">
 
-    <div class="card">
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png">
-        <h3>Instagram</h3>
-        <p>Modified IPA</p>
-        <button>Download</button>
-    </div>
+<img src="assets/apps/spotify.png">
 
-    <div class="card">
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968841.png">
-        <h3>TikTok</h3>
-        <p>Premium IPA</p>
-        <button>Download</button>
-    </div>
+<h3>Spotify Premium</h3>
 
-</section>
+<p>Music Streaming</p>
 
-<footer>
+<button>Download</button>
 
-    © 2026 KAMOHACK STORE
+</div>
 
-</footer>
+<div class="card glass">
+
+<img src="assets/apps/youtube.png">
+
+<h3>YouTube</h3>
+
+<p>Video Streaming</p>
+
+<button>Download</button>
+
+</div>
+
+<div class="card glass">
+
+<img src="assets/apps/tiktok.png">
+
+<h3>TikTok</h3>
+
+<p>Short Videos</p>
+
+<button>Download</button>
+
+</div>
+
+</div>
+
+</main>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
